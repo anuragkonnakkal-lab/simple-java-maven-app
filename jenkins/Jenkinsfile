@@ -32,12 +32,6 @@ pipeline {
                 echo 'test completed'
             }
         }
-        stage('check') {
-            steps {
-                echo 'check completed'
-
-            }
-        }
     }
 
 }
