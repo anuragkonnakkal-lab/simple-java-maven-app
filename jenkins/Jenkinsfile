@@ -35,6 +35,9 @@ pipeline {
         stage('check') {
             steps {
                 echo 'check completed'
+
+            }
+        }
     }
 
 }
